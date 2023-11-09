@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./vendor",
+    "paths": {
+      "@core/*": ["./vendor/gsapcore/*"],
+      "@plugins/*": ["./vendor/plugins/*"],
+      "@modules/*": ["./vendor/modules/*"],
+      "@polyfills/*": ["./vendor/polyfills/*"],
+      "@effects/*": ["./vendor/effects/*"]
+    }
+  }
+}

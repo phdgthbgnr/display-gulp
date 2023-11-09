@@ -1,0 +1,79 @@
+@import 'base/vars';
+@import 'base/reset';
+@import 'base/base';
+@import 'helpers/mixins';
+@import 'helpers/utils';
+
+// Insérer vos propres styles ici.
+.ecran {
+  background-color: transparent;
+  .ecran1,
+  .ecran2 {
+    background-color: #fff;
+  }
+
+  .ecran1 {
+    svg {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
+
+  .ecran3 {
+    img.iphone {
+      transform-origin: 222px 186px; // bottom center
+    }
+
+    img.apple {
+      transform-origin: 220px 208px; // bottom center
+    }
+  }
+}
+
+.mentions {
+  background-color: #fff;
+}
+
+.mentions-link {
+  width: 49px;
+  height: 6px;
+  right: 22px;
+  bottom: 5px;
+  // border: 1px solid red;
+}
+
+.mentions-back {
+  right: 5px;
+  bottom: 5px;
+  width: 19px;
+  height: 19px;
+}
+
+.cta {
+  bottom: 36px;
+  left: 9px;
+  // transform: translateX(-50%);
+  width: 114px;
+  height: 37px;
+  line-height: 37px;
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+  background-color: $color1;
+
+  /* Orange */
+  font-family: Arial, Helvetica, sans-serif;
+  /* image en background */
+  // background: #de2554 url('img/cta.png') center center no-repeat;
+  // background-size: 100% auto;
+
+  /* Sosh */
+  // border-radius: 4px;
+  // font-family: Tahoma, 'Trebuchet MS', Arial;
+
+  &:hover {
+    color: #fff;
+    background-color: #000000;
+  }
+}
